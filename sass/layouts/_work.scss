@@ -1,0 +1,47 @@
+.work {
+    padding-bottom: 94px;
+}
+
+.work-list {
+    display: flex;
+
+}
+
+.work-list img {
+    display: block;
+}
+
+.work-list .item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.work h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--title-text-color);
+    margin-bottom: 50px;
+}
+
+.work-wrapper {
+    position: relative;
+}
+
+.work-wrapper p {
+    position: absolute;
+    bottom: 0;
+
+    width: 370px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+
+
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
