@@ -14,31 +14,32 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-nav">
-        <nav class="main-nav">
+      <div class="container header__container">
+        <nav class="navigation__container">
           <a href="./index.html" class="logo" lang="en"
             ><span class="logo-accent">Web</span>Studio</a
           >
-          <ul class="nav-menu">
-            <li class="item active-decorate">
-              <a href="./index.html" class="active">Студія</a>
+          <ul class="navigation">
+            <li class="navigation__item active-decorate">
+              <a href="./index.html" 
+              class="active navigation__link">Студія</a>
             </li>
-            <li class="item"><a href="./portfolio.html">Портфоліо</a></li>
-            <li class="item"><a href="#">Контакти</a></li>
+            <li class="navigation__item"><a href="./portfolio.html" class="navigation__link">Портфоліо</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="auth-nav">
-          <li class="list">
-            <a href="mailto:info@devstudio.com">
-              <svg class="nav-mail-icon">
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              <svg class="contacts__icon_mail">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="list">
-            <a href="tel:+380961111111">
-              <svg class="nav-tel-icon">
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link">
+              <svg class="contacts__icon_tel">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -50,37 +51,37 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1>Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" data-modal-open>Замовити послугу</button>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="features">
-        <div class="container">
+        <div class="container features__container">
           <h2 class="visually-hidden">Особливості</h2>
-          <ul class="features-list">
-            <li class="item">
-              <h3>увага до деталей</h3>
-              <p>
+          <ul class="features__list">
+            <li class="features__item">
+              <h3 class="features__secondary-title">увага до деталей</h3>
+              <p class="features_text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="item">
-              <h3>пунктуальність</h3>
-              <p>
+            <li class="features__item">
+              <h3 class="features__secondary-title">пунктуальність</h3>
+              <p class="features_text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="item">
-              <h3>планування</h3>
-              <p>
+            <li class="features__item">
+              <h3 class="features__secondary-title">планування</h3>
+              <p class="features_text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="item">
-              <h3>сучасні технології</h3>
-              <p>
+            <li class="features__item">
+              <h3 class="features__secondary-title">сучасні технології</h3>
+              <p class="features_text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -89,25 +90,25 @@
         </div>
       </section>
       <section class="work">
-        <div class="container">
-          <h2>Чим ми займаємося</h2>
-          <ul class="work-list">
-            <li class="item">
-              <div class="work-wrapper">
-                <img src="./images/box1-min.jpg" alt="кодинг" width="370" />
-                <p>Десктопні додатки</p>
+        <div class="container work__container">
+          <h2 class="work__title">Чим ми займаємося</h2>
+          <ul class="work__list">
+            <li class="work__item">
+              <div class="work__item-wrapper">
+                <img class="work__image" src="./images/box1-min.jpg" alt="кодинг" width="370" />
+                <p class="work__text">Десктопні додатки</p>
               </div>
             </li>
-            <li class="item">
-              <div class="work-wrapper">
-                <img src="./images/box2-min.jpg" alt="маркетинг" width="370" />
-                <p>Мобільні додатки</p>
+            <li class="work__item">
+              <div class="work__item-wrapper">
+                <img class="work__image" src="./images/box2-min.jpg" alt="маркетинг" width="370" />
+                <p class="work__text">Мобільні додатки</p>
               </div>
             </li>
-            <li class="item">
-              <div class="work-wrapper">
-                <img src="./images/box3-min.jpg" alt="дизайн" width="370" />
-                <p>Дизайнерські рішення</p>
+            <li class="work__item">
+              <div class="work__item-wrapper">
+                <img class="work__image" src="./images/box3-min.jpg" alt="дизайн" width="370" />
+                <p class="work__text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>

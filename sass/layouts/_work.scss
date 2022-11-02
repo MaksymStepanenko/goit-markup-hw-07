@@ -2,20 +2,20 @@
     padding-bottom: 94px;
 }
 
-.work-list {
+.work__list {
     display: flex;
 
 }
 
-.work-list img {
+.work__image {
     display: block;
 }
 
-.work-list .item:not(:last-child) {
+.work__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.work h2 {
+.work__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -24,11 +24,11 @@
     margin-bottom: 50px;
 }
 
-.work-wrapper {
+.work__item-wrapper {
     position: relative;
 }
 
-.work-wrapper p {
+.work__text {
     position: absolute;
     bottom: 0;
 
